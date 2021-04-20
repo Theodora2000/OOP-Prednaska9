@@ -10,7 +10,7 @@ public class ZKlavesnice
     {
         char c = ' ';
 
-        InputStreamReader zklavesnice = new InputStreamReader(System.in);
+        InputStreamReader zklavesnice = new InputStreamReader(System.in);//vstupny zdroj
         try
         {	System.out.println(napis_pre_uzivatela);
             c = (char) zklavesnice.read();
